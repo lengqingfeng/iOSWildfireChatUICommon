@@ -1,0 +1,33 @@
+{
+  "name": "iOSWildfireChatUICommon",
+  "version": "0.1.0",
+  "summary": "A short description of iOSWildfireChatUICommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lengqingfeng/iOSWildfireChatUICommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "379306634@qq.com": "srleng@gaojihealth.com"
+  },
+  "source": {
+    "git": "https://github.com/lengqingfeng/iOSWildfireChatUICommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSWildfireChatUICommon/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2.0"
+    ],
+    "SDWebImage": [
+      "~> 4.3.3"
+    ],
+    "iOSWildfireChatClient": [
+
+    ]
+  }
+}

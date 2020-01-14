@@ -1,0 +1,6 @@
+framework module iOSWildfireChatUICommon {
+  umbrella header "iOSWildfireChatUICommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
