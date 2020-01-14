@@ -15,30 +15,17 @@ FOUNDATION_EXPORT double WFChatUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char WFChatUIKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <WFChatUIKit/PublicHeader.h>
-
-
-#import "WFCUConversationTableViewController.h"
-#import "WFCUMessageListViewController.h"
-#import "WFCUProfileTableViewController.h"
-#import "WFCUBlackListViewController.h"
 #import "QrCodeHelper.h"
 #import "Predefine.h"
-#import "WFCUBrowserViewController.h"
-
-#import "WFCUMediaMessageDownloader.h"
+//#import "WFCUMediaMessageDownloader.h"
 #import "WFCUFaceBoard.h"
-
 #import "UIView+Toast.h"
-
 #import "KZVideoConfig.h"
 #import "KZVideoViewController.h"
-
 #import "VideoPlayerKit.h"
 #import "VideoPlayer.h"
 #import "VideoPlayerView.h"
 #import "AirplayActiveView.h"
-
 #import "WFCUConfigManager.h"
-
 #import "WFCUAppServiceProvider.h"
 

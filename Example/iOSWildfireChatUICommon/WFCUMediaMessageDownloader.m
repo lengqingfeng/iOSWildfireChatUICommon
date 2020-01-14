@@ -7,7 +7,7 @@
 //
 
 #import "WFCUMediaMessageDownloader.h"
-#import <AFNetworking/AFNetworking.h>
+#import "AFNetworking.h"
 #import <WFChatClient/WFCChatClient.h>
 
 static WFCUMediaMessageDownloader *sharedSingleton = nil;

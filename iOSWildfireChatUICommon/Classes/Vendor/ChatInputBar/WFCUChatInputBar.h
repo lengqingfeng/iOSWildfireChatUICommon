@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
-#import <WFChatClient/WFCChatClient.h>
+
 
 #define CHAT_INPUT_BAR_HEIGHT 48
 #define TYPING_INTERVAL 10
@@ -48,7 +48,8 @@
 
 - (UINavigationController *)requireNavi;
 
-- (void)onTyping:(WFCCTypingType)type;
+//WFCCTypingType
+- (void)onTyping:(NSInteger)type;
 @end
 
 typedef NS_ENUM(NSInteger, ChatInputBarStatus) {

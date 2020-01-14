@@ -7,7 +7,7 @@
 //
 
 #import "GJViewController.h"
-
+#import "WFChatUIKit.h"
 @interface GJViewController ()
 
 @end

@@ -7,7 +7,6 @@ target 'iOSWildfireChatUICommon_Example' do
   pod 'AFNetworking','~> 3.2.0'
   pod 'SDWebImage', '~> 4.3.3'
   pod 'iOSWildfireChatUICommon', :path => '../'
-
   target 'iOSWildfireChatUICommon_Tests' do
     inherit! :search_paths
 

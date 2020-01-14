@@ -19,7 +19,6 @@
 #import "QrCodeHelper.h"
 #import "WFCUAppServiceProvider.h"
 #import "WFCUConfigManager.h"
-#import "WFCUMediaMessageDownloader.h"
 #import "WFCUUtilities.h"
 #import "CCHCenterOfMassMapClusterer.h"
 #import "CCHFadeInOutMapAnimator.h"

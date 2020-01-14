@@ -19,7 +19,6 @@
 #import "KZVideoViewController.h"
 #import "UIView+Toast.h"
 #import <WFChatClient/WFCChatClient.h>
-#import "Predefine.h"
 #define CHAT_INPUT_BAR_PADDING 8
 #define CHAT_INPUT_BAR_ICON_SIZE (CHAT_INPUT_BAR_HEIGHT - CHAT_INPUT_BAR_PADDING - CHAT_INPUT_BAR_PADDING)
 
@@ -526,7 +525,7 @@
     
 }
 
-- (void)notifyTyping:(WFCCTypingType)type {
+- (void)notifyTyping:(NSInteger)type {
     double now = [[NSDate date] timeIntervalSince1970];
     if (self.lastTypingTime + TYPING_INTERVAL < now) {
         if ([self.delegate respondsToSelector:@selector(onTyping:)]) {

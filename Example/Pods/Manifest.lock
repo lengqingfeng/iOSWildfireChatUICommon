@@ -15,8 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - iOSWildfireChatClient (0.0.3)
-  - iOSWildfireChatUICommon (0.1.0):
-    - AFNetworking (~> 3.2.0)
+  - iOSWildfireChatUICommon (0.0.1):
     - iOSWildfireChatClient
     - SDWebImage (~> 4.3.3)
   - SDWebImage (4.3.3):
@@ -42,9 +41,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   iOSWildfireChatClient: a51d70c155cbdff46f90e34b184691ec21322abf
-  iOSWildfireChatUICommon: 44a63c0f2d59771d710cb64ee9f515910c867dad
+  iOSWildfireChatUICommon: 7b37afb8ef7d52bc9a642338b23f66860f23fd93
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: 2d63086cc569027258274b0fea4f943e44758422
+PODFILE CHECKSUM: 490375d2e55f28485c4ec5fc1159a61d040a1c90
 
 COCOAPODS: 1.8.4
