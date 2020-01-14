@@ -19,6 +19,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'iOSWildfireChatUICommon'
 ```
+must add  WFCUMediaMessageDownloader to your project
 
 ## Author
 
