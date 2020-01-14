@@ -19,7 +19,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'iOSWildfireChatUICommon'
 ```
+
 must add  WFCUMediaMessageDownloader to your project
+
+需要手动吧工程里 WFCUMediaMessageDownloader 拖拽到自己的工程里
 
 ## Author
 
