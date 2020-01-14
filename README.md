@@ -1,0 +1,2 @@
+# iOSWildfireChatUICommon
+野火UI公共部分，不包含聊天对话页面和聊天列表等业务代码，这些部分基本都需要业务自定义。
