@@ -12,7 +12,9 @@
 
 #import "AttributedLabel.h"
 #import "BubbleTipView.h"
+#import "TabbarButton.h"
 #import "UIImage+ERCategory.h"
+#import "UITabBar+badge.h"
 #import "UIView+Screenshot.h"
 #import "UIView+Toast.h"
 #import "Predefine.h"
