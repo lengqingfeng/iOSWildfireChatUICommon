@@ -39,6 +39,4 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit','Foundation','QuartzCore','MapKit','CoreLocation','ImageIO','MobileCoreServices','AVFoundation','CoreText','CoreMotion','AssetsLibrary','Photos'
    s.dependency 'SDWebImage', '~> 4.3.3'
-   s.dependency 'iOSWildfireChatClient'
-   s.libraries   = "c++","z","resolv"
 end
