@@ -88,8 +88,8 @@
         if (self.hasVoip) {
             _pluginItems = [@[
                               [[PluginItem alloc] initWithTitle:WFCString(@"Album") image:[UIImage imageNamed:@"chat_input_plugin_album"] tag:1],
-                              [[PluginItem alloc] initWithTitle:@"拍摄" image:[UIImage imageNamed:@"chat_input_plugin_camera"] tag:2],
-                              [[PluginItem alloc] initWithTitle:@"位置" image:[UIImage imageNamed:@"chat_input_plugin_location"] tag:3]
+                              [[PluginItem alloc] initWithTitle:@"拍摄" image:[UIImage imageNamed:@"chat_input_plugin_camera"] tag:2]
+//                              [[PluginItem alloc] initWithTitle:@"位置" image:[UIImage imageNamed:@"chat_input_plugin_location"] tag:3]
             ] mutableCopy];
 //#if WFCU_SUPPORT_VOIP
 //                              [[PluginItem alloc] initWithTitle:@"视频通话" image:[UIImage imageNamed:@"chat_input_plugin_video_call"] tag:4],
@@ -99,8 +99,8 @@
         } else {
             _pluginItems = [@[
                               [[PluginItem alloc] initWithTitle:WFCString(@"Album") image:[UIImage imageNamed:@"chat_input_plugin_album"] tag:1],
-                              [[PluginItem alloc] initWithTitle:@"拍摄" image:[UIImage imageNamed:@"chat_input_plugin_camera"] tag:2],
-                              [[PluginItem alloc] initWithTitle:@"位置" image:[UIImage imageNamed:@"chat_input_plugin_location"] tag:3]
+                              [[PluginItem alloc] initWithTitle:@"拍摄" image:[UIImage imageNamed:@"chat_input_plugin_camera"] tag:2]
+//                              [[PluginItem alloc] initWithTitle:@"位置" image:[UIImage imageNamed:@"chat_input_plugin_location"] tag:3]
             ] mutableCopy];
 //                              [[PluginItem alloc] initWithTitle:@"文件" image:[UIImage imageNamed:@"chat_input_plugin_file"] tag:5]
 //                              ] mutableCopy];
